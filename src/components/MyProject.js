@@ -10,7 +10,7 @@ class MyProject extends Component {
   }
 
   componentDidMount() {
-    fetch("https://api-3lexw.herokuapp.com/projects/")
+    fetch("https://api.3lexw.com/projects/")
       .then((res) => res.json())
       .then((result) => {
         this.setState({
