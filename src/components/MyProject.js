@@ -10,26 +10,11 @@ class MyProject extends Component {
   }
 
   componentDidMount() {
-    var url = "https://api-3lexw.herokuapp.com/projects/";
-
-    var xhr = new XMLHttpRequest();
-    xhr.open("GET", url);
-
-    xhr.onreadystatechange = function () {
-      if (xhr.readyState === 4) {
-        this.setState({
-          projectList: xhr.responseText,
-        });
-      }
-    };
-
     fetch("https://api-3lexw.herokuapp.com/projects/")
-      .then((response) => {
-        return response.json();
-      })
-      .then((data) => {
+      .then((res) => res.json())
+      .then((result) => {
         this.setState({
-          projectList: data.results,
+          projectList: result,
         });
       });
   }
