@@ -22,9 +22,16 @@ class MyProject extends Component {
   render() {
     return (
       <div>
-        <div className="px-16 bg-gray-800 lg:flex items-center justify-center text-center">
-          <h1 className="font-major text-white text-5xl py-12">My Projects</h1>
+        <div className="px-4 lg:px-16 bg-gray-800 items-center justify-center text-center">
+          <h1 className="font-major text-white text-5xl pt-12 pb-2 block">
+            My Projects
+          </h1>
+          <p className="font-major text-white text-2xl block pt-2 pb-12">
+            (Require some loading time to activate my API Site{" "}
+            <a href="https://api.3lexw.com">api.3lexw.com</a>)
+          </p>
         </div>
+
         <div className="w-full flex flex-col-reverse">
           {this.state.projectList.map((project) => Project(project))}
         </div>
