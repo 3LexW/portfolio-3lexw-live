@@ -30,6 +30,14 @@ const NavBar = () => {
         <li>
           <a
             className="hover:text-yellow-500 transaction duration-100"
+            href="https://3lexw.medium.com"
+          >
+            Blog
+          </a>
+        </li>
+        <li>
+          <a
+            className="hover:text-yellow-500 transaction duration-100"
             href={cvURL}
           >
             Resume
