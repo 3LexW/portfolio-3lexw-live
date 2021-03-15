@@ -12,8 +12,10 @@ import githubLogo from "../static/images/logos/github.svg";
 import htmlLogo from "../static/images/logos/html.svg";
 import cssLogo from "../static/images/logos/css.svg";
 import javascriptLogo from "../static/images/logos/javascript.svg";
-import tableauLogo from "../static/images/logos/tableau.svg";
 import mysqlLogo from "../static/images/logos/mysql.svg";
+import netlifyLogo from "../static/images/logos/netlify.svg";
+import postgresqlLogo from "../static/images/logos/postgresql.png";
+import herokuLogo from "../static/images/logos/heroku.svg";
 
 const About = () => {
   return (
@@ -52,22 +54,24 @@ const About = () => {
           <div className="h-full col-span-2  flex justify-start">
             <img className="h-full mx-1" src={djangoLogo}></img>
             <img className="h-full mx-1" src={mysqlLogo}></img>
+            <img className="h-full mx-1" src={postgresqlLogo}></img>
           </div>
           <div>Scripting</div>
           <div className="h-full col-span-2  flex justify-start">
             <img className="h-full mx-1" src={pythonLogo}></img>
-            <h1 className="mx-1">VBA</h1>
+            <h1 className="mx-1">Excel VBA</h1>
+          </div>
+          <div>Deploy</div>
+          <div className="h-full col-span-2  flex justify-start">
+            <img className="h-full mx-1" src={githubLogo}></img>
+            <img className="h-full mx-1" src={netlifyLogo}></img>
+            <img className="h-full mx-1" src={herokuLogo}></img>
           </div>
           <div>Minor</div>
           <div className="h-full col-span-2  flex justify-start">
             <img className="h-full mx-1" src={javaLogo}></img>
             <img className="h-full mx-1" src={rLogo}></img>
             <img className="h-full mx-1" src={cppLogo}></img>
-          </div>
-          <div>Others</div>
-          <div className="h-full col-span-2  flex justify-start">
-            <img className="h-full mx-1" src={githubLogo}></img>
-            <img className="h-full mx-1" src={tableauLogo}></img>
           </div>
         </div>
         <p>
