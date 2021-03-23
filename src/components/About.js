@@ -40,38 +40,78 @@ const About = () => {
         <div className="2xl:px-96 lg:px-32 px-6 my-12 h-72 grid grid-rows-6 grid-cols-3 gap-4 items-center text-right justify-center">
           <div>Frontend</div>
           <div className="h-full col-span-2 flex justify-start">
-            <img className="h-full mx-1" src={reactLogo}></img>
-            <img className="h-full mx-1" src={htmlLogo}></img>
-            <img className="h-full mx-1" src={cssLogo}></img>
-            <img className="h-full mx-1" src={javascriptLogo}></img>
+            <img
+              className="h-full mx-1"
+              src={reactLogo}
+              alt="React JS Logo"
+            ></img>
+            <img className="h-full mx-1" src={htmlLogo} alt="HTML Logo"></img>
+            <img className="h-full mx-1" src={cssLogo} alt="CSS Logo"></img>
+            <img
+              className="h-full mx-1"
+              src={javascriptLogo}
+              alt="JavaScript Logo"
+            ></img>
           </div>
           <div>CSS</div>
           <div className="h-full col-span-2  flex justify-start">
-            <img className="h-full mx-1" src={tailwindcssLogo}></img>
-            <img className="h-full mx-1" src={bootstrapLogo}></img>
+            <img
+              className="h-full mx-1"
+              src={tailwindcssLogo}
+              alt="TailwindCSS Logo"
+            ></img>
+            <img
+              className="h-full mx-1"
+              src={bootstrapLogo}
+              alt="Bootstrap Logo"
+            ></img>
           </div>
           <div>Backend</div>
           <div className="h-full col-span-2  flex justify-start">
-            <img className="h-full mx-1" src={djangoLogo}></img>
-            <img className="h-full mx-1" src={mysqlLogo}></img>
-            <img className="h-full mx-1" src={postgresqlLogo}></img>
+            <img
+              className="h-full mx-1"
+              src={djangoLogo}
+              alt="Django Logo"
+            ></img>
+            <img className="h-full mx-1" src={mysqlLogo} alt="MySQL Logo"></img>
+            <img
+              className="h-full mx-1"
+              src={postgresqlLogo}
+              alt="PostgreSQL Logo"
+            ></img>
           </div>
           <div>Scripting</div>
           <div className="h-full col-span-2  flex justify-start">
-            <img className="h-full mx-1" src={pythonLogo}></img>
+            <img
+              className="h-full mx-1"
+              src={pythonLogo}
+              alt="Python Logo"
+            ></img>
             <h1 className="mx-1">Excel VBA</h1>
           </div>
           <div>Deploy</div>
           <div className="h-full col-span-2  flex justify-start">
-            <img className="h-full mx-1" src={githubLogo}></img>
-            <img className="h-full mx-1" src={netlifyLogo}></img>
-            <img className="h-full mx-1" src={herokuLogo}></img>
+            <img
+              className="h-full mx-1"
+              src={githubLogo}
+              alt="GitHub Logo"
+            ></img>
+            <img
+              className="h-full mx-1"
+              src={netlifyLogo}
+              alt="Netlify Logo"
+            ></img>
+            <img
+              className="h-full mx-1"
+              src={herokuLogo}
+              alt="Heroku Logo"
+            ></img>
           </div>
           <div>Minor</div>
           <div className="h-full col-span-2  flex justify-start">
-            <img className="h-full mx-1" src={javaLogo}></img>
-            <img className="h-full mx-1" src={rLogo}></img>
-            <img className="h-full mx-1" src={cppLogo}></img>
+            <img className="h-full mx-1" src={javaLogo} alt="Java Logo"></img>
+            <img className="h-full mx-1" src={rLogo} alt="R Logo"></img>
+            <img className="h-full mx-1" src={cppLogo} alt="C++ Logo"></img>
           </div>
         </div>
         <p>

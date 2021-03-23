@@ -12,7 +12,11 @@ const Header = () => {
       }}
     >
       <div className="header text-center w-full">
-        <img className="h-32 mx-auto" src={icon}></img>
+        <img
+          className="h-32 mx-auto"
+          src={icon}
+          alt="3LexW Website's Logo"
+        ></img>
         <DivBar />
         <h1 className="uppercase font-major text-5xl text-gray-50">
           Felix Wong
